@@ -9,6 +9,13 @@ rustc --version
 # Cargo Commands
 cargo new hello_world
 cd hello_world
+
 cargo build
 cargo run
+# OR
+rustc src/main.rs
+./main
+
+# Release
+cargo build --release
 ```
